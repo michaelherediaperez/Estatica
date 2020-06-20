@@ -31,7 +31,7 @@ reacciones : solve([Sum_x, Sum_y, Sum_M], [Bx, By, Ay])$
 nodo_Ax : F_AC*cos(alpha) + F_AD = 0$
 nodo_Ay : Ay + F_AC*sin(alpha) = 0, reacciones$
 nodo_Bx : - F_CB*cos(alpha) - F_DB - Bx = 0, reacciones$
-nodo_By : F_CB*sin(alpha) + By = 0$
+nodo_By : F_CB*sin(alpha) + By = 0, reacciones$
 nodo_Cx : - Px - F_AC*cos(alpha) + F_DB*cos(alpha) = 0$
 nodo_Cy : - Py - F_CD - F_AC*sin(alpha) - F_DB*sin(alpha) = 0$
 nodo_Dx : - F_AD + F_DB = 0$
